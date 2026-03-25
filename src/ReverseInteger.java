@@ -1,10 +1,8 @@
 import java.util.Scanner;
 public class ReverseInteger { 
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
         int reversed = 0;
 
         while (n != 0) {
@@ -15,4 +13,5 @@ public class ReverseInteger {
 
         System.out.println(reversed);
     }
+
 }
